@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "92156607348",
+    "project_id": "meesho-dd6bd",
+    "storage_bucket": "meesho-dd6bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92156607348:android:6153c02b3da14ed3944a21",
+        "android_client_info": {
+          "package_name": "com.example.meesho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92156607348-sof9nrsfjjdcj98f91cfst6v57o28mj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsodbZSEhh6gmZilSyrwrbYgtfnCeRdqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92156607348-sof9nrsfjjdcj98f91cfst6v57o28mj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
