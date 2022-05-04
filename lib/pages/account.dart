@@ -4,11 +4,16 @@ import 'package:meesho/main.dart';
 import 'package:meesho/main.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:meesho/pages/EnterBankDetails.dart';
 
 void main(){
   runApp(MaterialApp(
       home: Account(),
-  ));
+      routes: {
+        '/bank':(context)=>EnterBankDetails(),
+      },
+  )
+  );
 }
 
 
@@ -65,7 +70,7 @@ class _AccountState extends State<Account> {
                         ),
                         FloatingActionButton.extended(
                             onPressed: (){},
-                            label: Text("pushkarmavale@gmail.com"),
+                            label: Text("meesho@gmail.com"),
                             backgroundColor: Color.fromARGB(100, 253, 1, 240),
                             shape: BeveledRectangleBorder(
                                 borderRadius: BorderRadius.zero
@@ -80,7 +85,10 @@ class _AccountState extends State<Account> {
                       itemBuilder: (context,index){
                           return Card(
                             child: ListTile(
-                                onTap:(){},
+
+                                onTap:(){
+                                  Navigator.pushNamed(context,'/bank');
+                                },
                                 title: Text(account[index]),
                             ),
                           );

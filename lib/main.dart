@@ -8,6 +8,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:meesho/pages/EnterBankDetails.dart';
 import 'package:meesho/pages/account.dart';
 import 'package:mdi/mdi.dart';
 
@@ -32,6 +33,7 @@ void main() async {
     routes: {
       '/account':(context)=> Account(),
       '/login':(context)=> Login(),
+      '/bank':(context)=> EnterBankDetails(),
     },
   ),
   );
